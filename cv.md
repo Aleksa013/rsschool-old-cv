@@ -53,12 +53,6 @@ SOLUTION:
 'Полный курс по JavaScript + React - с нуля до результата'(in the process)
 - RSSchool «JavaScript/Front-end. Stage 0»(in the process)
 - GeekBrains
-![diploma](./img/gold_tmpl.png);
-![diploma](./img/course_tmpl.png);
-![diploma](./img/course_tmpl-2.png);
-![diploma](./img/course_tmpl-05.png);
-![diploma](./img/course_tmpl-04d5623.png);
-![diploma](./img/course_tmpl-04.png);
  ### Languages:
  - Russian(native)
  - English(B1)
