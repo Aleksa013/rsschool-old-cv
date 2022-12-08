@@ -13,15 +13,6 @@
 <body>
     <header class="header-page">
         <div class="container">
-            <nav>
-                <ul class="header-nav-menu">
-                    <li class="header-nav-menu-item"><a class="header-nav-menu-link" href="#"></a></li>
-                    <li class="header-nav-menu-item"><a class="header-nav-menu-link" href="#"></a></li>
-                    <li class="header-nav-menu-item"><a class="header-nav-menu-link" href="#"></a></li>
-                    <li class="header-nav-menu-item"><a class="header-nav-menu-link" href="#"></a></li>
-                    <li class="header-nav-menu-item"><a class="header-nav-menu-link" href="#"></a></li>
-                </ul>
-            </nav>
             <img class ="ava" src="./assets/img/ava-cv.jpg" alt="photo-of-the-author">
             <div class="header-wrapper">
                 <h1>Aleksandra Ilchenko</h1>
@@ -76,14 +67,49 @@
                 </section>
             </div>
             <div class="wrapper-info">
-                <section class="info-scills"></section>
-                <section class="info-example-code"></section>
-                <section class="info-contact"></section>
+                <section class="info-courses">
+                    <ul class="info-courses-list">
+                        <li class="info-courses-list-item">
+                             Udemy 
+                            'Полный курс по JavaScript + React - с нуля до результата'(in the process)</li>
+                        <li class="info-courses-list-item">RSSchool «JavaScript/Front-end. Stage 0»(in the process)</li>
+                    </ul>
+                </section>
+                <section class="info-example-code">
+                    
+                (An example of a problem and a solution are taken from the personal account on the site <https://www.codewars.com/>):
+                DESCRIPTION:
+                Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+
+                SOLUTION: <br>
+                <code>
+                    function even_or_odd(number) { <br>
+                    if( number % 2 ){ <br>
+                        return 'Odd' <br>
+                    }else{ <br>
+                        return 'Even'<br>
+                    } <br>
+                    } <br>
+                </code>
+                    
+                </section>
+                <section class="info-languages">
+                    <ul class="info-languages-list">
+                        <li class="info-languages-list-item">Russian(native)</li>
+                        <li class="info-languages-list-item">English(B1)</li>
+                    </ul>
+                </section>
             </div>
         </div>
     </main>
     <footer>
-        <div class="container"></div>
+        <div class="container">
+            <ul class="footer-info-list">
+                <li class="footer-info-list-item"><a href="https://github.com/Aleksa013" target="_blank">My GitHub</a></li>
+                <li class="footer-info-list-item">2022</li>
+                <li class="footer-info-list-item"><a href="https://rs.school/js/" target="_blank"><img src="https://rs.school/images/rs_school_js.svg" alt="logo-rsschool"></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
