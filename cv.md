@@ -13,12 +13,11 @@
 
 -----------------------------------------------------------
 ### About me:
-Previous jobs are indirectly related to the IT field, but having worked in different directions, I understand that you can always try something new, gaining experience and skills.
-I consider patience and discipline to be one of my main qualities. After all, having them you can learn anything. Therefore, I know that I can become an experienced web developer. I am attracted to this area by the large IT community and the need for constant development.
+
 
 -----------------------------------------------------------
 ### Skills and Proficiency:
-- HTML
+- 
 - CSS
 - JavaScript(Basic)
 - Bootstrap(Basic)
