@@ -13,12 +13,24 @@
 <body>
     <header class="header-page">
         <div class="container border-blue">
-                <div class="header-wrapper">
+            <div class="header-wrapper">
+               
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item"><a class="link" href="#">Contacts</a></li>
+                        <li class="header-menu-item"><a class="link" href="#">About me</a></li>
+                        <li class="header-menu-item"><a class="link" href="#">Skills</a></li>
+                        <li class="header-menu-item"><a class="link" href="#">Courses</a></li>
+                        <li class="header-menu-item"><a class="link" href="#">Code</a></li>
+                        <li class="header-menu-item"><a class="link" href="#">Education</a></li>
+                        <li class="header-menu-item"><a class="link" href="#">Languages</a></li>
+                    </ul>
+                
+              
                     <img class ="ava" src="./assets/img/ava-cv.jpg" alt="photo-of-the-author">
                 
                 <div class="header-wrapper-text">
                     <h1 class="header-text border-blue">Aleksandra Ilchenko</h1>
-                    <h2 class="header-text-profession">Junior Frontend Developer</h2>
+                    <h2 class="header-text-profession">Junior Front-end Developer</h2>
             </div>
         </div>
         </div>
@@ -41,10 +53,10 @@
                             <img src="./assets/img/telegram.svg" alt="telegram-link" class="info-contact-menu-list-item-picture">@Aleksandra_Ilchenko13</li>
                         <li class="info-contact-menu-list-item text-disc">
                             <img src="./assets/img/github.svg" alt="git-link" class="info-contact-menu-list-item-picture">
-                            <a href="https://github.com/Aleksa013" target="_blank">My GitHub</a></li>
+                            <a class="link" href="https://github.com/Aleksa013" target="_blank">My GitHub</a></li>
                         <li class="info-contact-menu-list-item text-disc">
                             <img src="./assets/img/linkedin.svg" alt="linkedin" class="info-contact-menu-list-item-picture">
-                            <a href="https://www.linkedin.com/in/aleksandra-ilchenko/" target="_blank">My Linkedin</a></li>
+                            <a class="link" href="https://www.linkedin.com/in/aleksandra-ilchenko/" target="_blank">My Linkedin</a></li>
                     </ul>
                 </section>
                 <section class="info-about-me">
@@ -76,18 +88,20 @@
                     <h3 class="info-header-text">Courses:</h3>
                     <ul class="info-list-icons text-disc">
                         <li class="info-courses-list-item">
-                             Udemy 
-                            'Полный курс по JavaScript + React - с нуля до результата'(in the process)</li>
-                        <li class="info-courses-list-item">RSSchool «JavaScript/Front-end. Stage 0»(in the process)</li>
+                            <span class="text-important">Udemy</span>   <br>
+                             «The Complete JavaScript + React Course - From Zero to Result»(in the process)</li>
+                        <li class="info-courses-list-item">RSSchool <br>
+                            «JavaScript/Front-end. Stage 0»(in the process)</li>
                     </ul>
                 </section>
                 <section class="info-example-code text-disc">
                     <h3 class="info-header">Code (example):</h3>
-                (An example of a problem and a solution are taken from the personal account on the site <https://www.codewars.com/>):
-                DESCRIPTION:
+                (An example of a problem and a solution are taken from the personal account on the site 
+                <a class="link" href="https://www.codewars.com/">Codewars</a> ) <br>
+                <span class="text-important">DESCRIPTION:</span>  
                 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
-
-                SOLUTION: <br>
+                    <br>
+                    <span class="text-important">SOLUTION:</span>  <br>
                 <code>
                     function even_or_odd(number) { <br>
                     if( number % 2 ){ <br>
@@ -97,7 +111,13 @@
                     } <br>
                     } <br>
                 </code>
-                    
+                </section>
+                <section class="info-projects">
+                    <h3 class="info-header">My study project:</h3>
+                    <ul class="info-projects-list text-disc">
+                        <li class="info-projects-item"><a class="link" href="https://aleksa013.github.io/">My project</a></li>
+                    </ul>
+
                 </section>
                 <section class="info-languages">
                     <h3 class="info-header-text">Languages:</h3>
@@ -112,9 +132,9 @@
     <footer>
         <div class="container">
             <ul class="footer-info-list">
-                <li class="footer-info-list-item"><a href="https://github.com/Aleksa013" target="_blank">My GitHub</a></li>
-                <li class="footer-info-list-item">2022</li>
-                <li class="footer-info-list-item"><a href="https://rs.school/js/" target="_blank">
+                <li class="footer-info-list-item"><a class="link text-important" href="https://github.com/Aleksa013" target="_blank">My GitHub</a></li>
+                <li class="footer-info-list-item text-important">2022</li>
+                <li class="footer-info-list-item"><a class="link" href="https://rs.school/js/" target="_blank">
                     <img class="footer-info-list-picture" src="https://rs.school/images/rs_school_js.svg" alt="logo-rsschool"></a></li>
             </ul>
         </div>

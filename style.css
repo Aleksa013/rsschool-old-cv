@@ -5,6 +5,14 @@
     font-weight: 300;
     font-size: 24px;
 }
+.text-important{
+    font-weight: 300;
+    font-size: 26px;
+}
+.link{
+    text-decoration: none;
+    color: #2A82CE;
+}
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -12,12 +20,24 @@
     justify-content: space-around;
     align-items: flex-start;
   }
-  .border-blue{
+.border-blue{
     border-bottom: 5px solid blue;
   }
 .ava{
     width: 300px;
     margin:  135px 15px 150px;
+    border-radius: 50%;
+}
+.header-menu-list{
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 165px;
+}
+.header-menu-item{
+    margin-right: 20px;
+    font-size: 20px;
 }
 .header-text{
     font-weight: 700;
@@ -34,6 +54,7 @@
 .header-wrapper{
     background-color: #E9F2FD;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     flex-direction: row;
     align-items: center;
