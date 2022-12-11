@@ -12,7 +12,12 @@
 }
 .link{
     text-decoration: none;
-    color: #2A82CE;
+    color: #00CC00;
+}
+.link:hover{
+    text-decoration: underline;
+    font-weight: 500;
+    color:#006600;
 }
 .container {
     max-width: 1440px;
@@ -22,8 +27,8 @@
     align-items: flex-start;
     
   }
-.border-blue{
-    border-bottom: 5px solid blue;
+.border-green{
+    border-bottom: 5px solid #00CC00;
   }
 .ava{
     width: 300px;
@@ -39,11 +44,13 @@
 }
 .header-menu-item{
     margin-right: 20px;
-    font-size: 20px;
+    font-size: 23px;
 }
+
 .header-text{
     font-weight: 700;
     font-size: 48px;
+    line-height: 110px;
 }
 .header-text-profession{
     font-weight: 700;
@@ -52,10 +59,10 @@
 .info-header-text{
     font-weight: 700;
     font-size: 37px;
-    background-color:  #CCE5FF;
+    background-color:  #99FF99;
 }
 .header-wrapper{
-    background-color:  #99CCFF;
+    background-color:  #66FF66;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -66,7 +73,7 @@
 }
 .wrapper-info{
     width: 500px;
-    /* background-color: #D0E7FD; */
+    
 }
 .info-contact-list{
     list-style-type: none;
@@ -80,7 +87,7 @@
     margin-right: 15px;
 }
 .info-list-icons{
-    list-style-image:url(./assets/img/icons-list.png);
+    list-style-image:url(./assets/img/ok-green.png);
 }
 .info-education-item{
     list-style-type: none;
