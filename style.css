@@ -1,5 +1,6 @@
 *{
     font-family: 'Roboto' ,sans-serif;
+    
 }
 .text-disc{
     font-weight: 300;
@@ -19,6 +20,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    
   }
 .border-blue{
     border-bottom: 5px solid blue;
@@ -44,15 +46,16 @@
     font-size: 48px;
 }
 .header-text-profession{
-    font-weight: 500;
-    font-size: 36px;
+    font-weight: 700;
+    font-size: 37px;
 }
 .info-header-text{
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 37px;
+    background-color:  #CCE5FF;
 }
 .header-wrapper{
-    background-color: #E9F2FD;
+    background-color:  #99CCFF;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -63,6 +66,7 @@
 }
 .wrapper-info{
     width: 500px;
+    /* background-color: #D0E7FD; */
 }
 .info-contact-list{
     list-style-type: none;
@@ -77,6 +81,9 @@
 }
 .info-list-icons{
     list-style-image:url(./assets/img/icons-list.png);
+}
+.info-education-item{
+    list-style-type: none;
 }
 .footer-info-list{
     list-style-type: none;
