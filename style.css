@@ -1,0 +1,124 @@
+*{
+    font-family: 'Roboto' ,sans-serif;
+    
+}
+
+.text-disc{
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.text-important{
+    font-weight: 300;
+    font-size: 26px;
+}
+
+.link{
+    color: #00CC00;
+    text-decoration: none;
+}
+
+.link:hover{
+    font-weight: 500;
+    color:#006600;
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.border-green{
+    border-bottom: 5px solid #00CC00;
+}
+
+.ava{
+    width: 300px;
+    margin:  135px 15px 150px;
+    border-radius: 50%;
+}
+
+.header-menu-list{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 165px;
+    list-style-type: none;
+}
+
+.header-menu-item{
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+.header-text{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110px;
+}
+
+.header-text-profession{
+    font-weight: 700;
+    font-size: 37px;
+}
+
+.info-header-text{
+    font-weight: 700;
+    font-size: 37px;
+    background-color:  #99FF99;
+}
+
+.header-wrapper{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #66FF66;
+   
+}
+
+.wrapper-info{
+    width: 500px;
+}
+
+.info-contact-list{
+    list-style-type: none;
+}
+
+.contact-list-item{
+    display: flex;
+    align-items: center;
+}
+
+.contact-list-picture{
+    width: 25px;
+    margin-right: 15px;
+}
+
+.info-list-icons{
+    list-style-image:url(./assets/img/ok-green.png);
+}
+
+.info-education-item{
+    list-style-type: none;
+}
+
+.footer-info-list{
+    width: 489px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+.footer-info-list-picture{
+    width: 100px;
+}
